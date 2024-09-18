@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <div class="container-1">
       <div class="hero">
@@ -46,6 +47,11 @@
     <div class="footer">Copyright © 2024 Zelda. All rights reserved.</div>
   </div>
 </template>
+<script setup>
+useHead({
+  title: 'Cenzo | Get Script',
+})
+</script>
 <script>
 
 export default {
