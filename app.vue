@@ -20,7 +20,7 @@
           </nav>
         </div>
         <div class="overlay">
-          <h1>CENZO</h1>
+          <h1>CENZO:</h1>
           <h1>Undetected Cheat</h1>
         </div>
       </div>
