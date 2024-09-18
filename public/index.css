@@ -124,17 +124,6 @@ body {
   position: absolute;
 }
 
-@keyframes pop {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
 @keyframes fall {
   0% {
@@ -152,7 +141,7 @@ body {
   color: #fff;
   background: transparent;
   text-transform: capitalize;
-  font-size: 48px;
+  font-size: 100px;
   font-weight: auto;
   letter-spacing: 1px;
   text-align: center;
@@ -165,7 +154,7 @@ body {
   color: #fff;
   background: transparent;
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 35px;
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
@@ -310,27 +299,28 @@ body {
 }
 
 .invisible {
-  background-color: #1e1e1e;
-  color: #1e1e1e;
-  height: 0px;
-  width: 0px;
+  visibility: hidden
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;          /* Full viewport height */
 }
 
 .script {
-  background-color: #181818;
-  border: #181818 1px solid;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  width: 70%;
-  height: 50px;
   text-align: center;
-  transition: 0.5s;
-  position: relative;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
+  margin: auto;
+  width: 50%;
+  border: #ffffff94 1px solid;
+  padding: 10px;
+  border-radius: 10px;
 }
+
 
 .script:hover {
   transform: scale(1.05);
 }
+
